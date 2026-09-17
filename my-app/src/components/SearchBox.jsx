@@ -1,5 +1,6 @@
-function SearchBox() {
-  const [query, setQuery] = useState('');
+import { useState } from "react";
+function SearchBox({query, setQuery}) {
+  //const [query, setQuery] = useState('');
 
   return (
     <div className="space-y-2 p-4">
